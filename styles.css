@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E9E9E9;
+}
+
+header {
+    background-color: #a7c0ab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    text-align: left;
+
+}
+h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    text-align: left;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 43%;
+    left: 3%;
+}
+
+.btn {
+    background-color: #003366;
+    color: rgb(246, 246, 246);
+    padding: 12px 100px;
+    border-radius: 80px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00509E;
+}
+#logo {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+.button-container {
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    top: 70%;
+    display: flex;            /* Align buttons in a row */
+    justify-content: center;  /* Center them within the container */
+    align-items: center;      /* Center vertically */
+    background-color: rgba(167, 192, 171); /* White background with slight transparency */
+    padding: 30px;           /* Adjust padding as needed */
+    border-radius: 200px;     /* Rounded corners */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    width: 110%;
+    top:64%;
+}
+
+.login-button, .signup-button {
+    margin: 0 10px;         /* Space between buttons */
+    padding: 20px 120px;     /* Button padding */
+    background-color: #00509E; /* Button color */
+    color: white;           /* Button text color */
+    border: none;           /* Remove default border */
+    border-radius: 200px;    /* Rounded button corners */
+    cursor: pointer;        /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for buttons */
+.login-button:hover, .signup-button:hover {
+    background-color: #00509E; /* Darken button on hover */
+}
+
+h4 {
+    font-size: 32px;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    text-align: left;
+}
+.info {
+    text-align: center; /* Center align text */
+}
+
+.styled-image {
+    display: block; /* Ensures image is below text */
+    margin: 250px auto; /* Centers image and adds space around it */
+    margin-left: 50px;
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+.styled-paragraph {
+    font-size: 16px;        /* Set the font size for the paragraph */
+    line-height: 1.5;       /* Line height to improve readability */
+    color: #333;            /* Sets the text color */
+    text-align: left;     /* Center-aligns the paragraph text */
+    margin-top: -210px;     /* Adjust the top margin as needed */
+    margin-left: 50px;      /* Adjust the left margin as needed */
+    max-width: 200px;
+}
