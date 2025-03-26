@@ -1,0 +1,235 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+      <div class="logo">
+          <img src="images/logo.png" alt="Company Logo" id="logo">
+      </div>
+      <nav>
+          <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="energy.html">Energy</a></li>
+              <li><a href="#">Carbon Calc</a></li>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#" class="icon"></a></li>
+              <img src="images/profile.png" alt="Profile Icon" style="width: 15px; height: 15px;">
+          </ul>
+      </nav>
+  </header>
+  <title>
+   Optimising Energy Use
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+  <main class="p-8">
+   <section class="mb-8">
+    <h1 class="text-2xl font-bold mb-2">
+     Optimising Energy use
+    </h1>
+    <img alt="Blue and yellow lines" class="w-full h-2 mb-4" height="10" src="https://storage.googleapis.com/a1aa/image/VOjl5kVPU_R0UzLKLD3QqTvEDSElVDoLV25gglUohrE.jpg" width="1200"/>
+    <p class="text-gray-700 mb-4">
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+    </p>
+   </section>
+   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+    <div class="text-center">
+     <div class="bg-blue-900 h-40 mb-2 relative">
+      <h2 class="absolute top-2 left-2 text-white font-bold">
+       Article
+      </h2>
+     </div>
+     <h3 class="font-bold">
+      Lorem ipsum
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do epor incididunt ut labore et do
+     </p>
+    </div>
+    <div class="text-center">
+     <div class="bg-blue-900 h-40 mb-2 relative">
+      <h2 class="absolute top-2 left-2 text-white font-bold">
+       Pros
+      </h2>
+     </div>
+     <h3 class="font-bold">
+      Lorem ipsum
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do epor incididunt ut labore et do
+     </p>
+    </div>
+    <div class="text-center">
+     <div class="bg-blue-900 h-40 mb-2 relative">
+      <h2 class="absolute top-2 left-2 text-white font-bold">
+       Facts
+      </h2>
+     </div>
+     <h3 class="font-bold">
+      Lorem ipsum
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do epor incididunt ut labore et do
+     </p>
+    </div>
+    <div class="text-center">
+     <div class="bg-blue-900 h-40 mb-2 relative">
+      <h2 class="absolute top-2 left-2 text-white font-bold">
+       Video
+      </h2>
+     </div>
+     <h3 class="font-bold">
+      Lorem ipsum
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do epor incididunt ut labore et do
+     </p>
+    </div>
+    <div class="text-center">
+     <div class="bg-blue-900 h-40 mb-2 relative">
+      <h2 class="absolute top-2 left-2 text-white font-bold">
+       Cons
+      </h2>
+     </div>
+     <h3 class="font-bold">
+      Lorem ipsum
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do epor incididunt ut labore et do
+     </p>
+    </div>
+    <div class="text-center">
+     <div class="bg-blue-900 h-40 mb-2 relative">
+      <h2 class="absolute top-2 left-2 text-white font-bold">
+       Article
+      </h2>
+     </div>
+     <h3 class="font-bold">
+      Lorem ipsum
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do epor incididunt ut labore et do
+     </p>
+    </div>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-xl font-bold mb-4">
+     Tracking energy usage
+    </h2>
+    <div class="space-y-4">
+     <input class="w-full p-2 border border-gray-300 rounded bg-green-100" id="appliance" placeholder="Appliance:[...................................]" type="text"/>
+     <input class="w-full p-2 border border-gray-300 rounded bg-green-100" id="wattage" placeholder="Wattage(Watts):[...................................]" type="text"/>
+     <input class="w-full p-2 border border-gray-300 rounded bg-green-100" id="hours" placeholder="Hours of use daily:[...................................]" type="text"/>
+    </div>
+    <button class="mt-4 bg-blue-900 text-white py-2 px-4 rounded" onclick="calculateUsage()">
+     calculate now
+    </button>
+   </section>
+   <section class="text-center mb-8">
+    <h2 class="text-xl font-bold mb-4">
+     NEED EXTRA HELP?
+    </h2>
+    <p class="text-gray-700 mb-4">
+     Click below for a CTA to book a consultation or request further analysis of energy savings
+    </p>
+    <button class="bg-blue-900 text-white py-2 px-4 rounded">
+     SCHEDULE
+    </button>
+   </section>
+  </main>
+  <footer class="bg-green-100 p-8">
+   <div class="flex justify-between items-start mb-4">
+    <div class="flex flex-col items-start space-y-4">
+      <img src="images/logo.png" alt="Company Logo" id="logo" width="100" />
+     <div class="space-x-4">
+      <a class="text-gray-800" href="#">
+       <i class="fab fa-facebook">
+       </i>
+      </a>
+      <a class="text-gray-800" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a class="text-gray-800" href="#">
+       <i class="fab fa-envelope">
+       </i>
+      </a>
+      <a class="text-gray-800" href="#">
+       <i class="fab fa-linkedin">
+       </i>
+      </a>
+     </div>
+     <div class="mt-4 text-center">
+      <a class="text-gray-800" href="#">
+       PRIVACY POLICY
+      </a>
+      |
+      <a class="text-gray-800" href="#">
+       TERMS &amp; CONDITIONS
+      </a>
+     </div>
+    </div>
+    <div class="flex space-x-16">
+     <div class="space-y-2">
+      <a class="text-gray-800 block" href="#">
+       About us
+      </a>
+      <a class="text-gray-800 block" href="#">
+       How to reduce carbon footprint
+      </a>
+      <a class="text-gray-800 block" href="#">
+       Optimising energy use
+      </a>
+      <a class="text-gray-800 block" href="#">
+       Electric Vehicle charging stations
+      </a>
+     </div>
+     <div class="space-y-2">
+      <a class="text-gray-800 block" href="#">
+       CTA requesting analysis
+      </a>
+      <a class="text-gray-800 block" href="#">
+       Green energy products
+      </a>
+      <a class="text-gray-800 block" href="#">
+       Contact us
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script>
+   function calculateUsage() {
+    const appliance = document.getElementById('appliance').value;
+    const wattage = document.getElementById('wattage').value;
+    const hours = document.getElementById('hours').value;
+
+    // Example API call
+    fetch('https://api.example.com/calculate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        appliance: appliance,
+        wattage: wattage,
+        hours: hours
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      alert('Calculation result: ' + data.result);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+   }
+  </script>
+ </body>
+</html>
